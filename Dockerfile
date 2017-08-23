@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 
 MAINTAINER cybermans <cybermans@gmail.com>
-LABEL version 
+LABEL version 20170823
 
 RUN apt-get update && \
     apt-get -y install git python2.7 && \
